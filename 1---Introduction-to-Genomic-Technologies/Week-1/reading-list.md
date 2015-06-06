@@ -1,6 +1,7 @@
 ```
 Interesting Reads:
 ```
+<a href="http://en.wikipedia.org/wiki/Genomics">Genomics - wiki</a><br>
 [1] <a href="http://sandwalk.blogspot.in/2007/01/central-dogma-of-molecular-biology.html">Basic Concepts: The Central Dogma of Molecular Biology</a><br>
 [2] <a href="http://www.accessexcellence.org/RC/VL/GG/central.php">The Central Dogma of Molecular Biology</a><br>
 [3] <a href="https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=5&cad=rja&uact=8&ved=0CDgQFjAE&url=http%3A%2F%2Fwww.ias.ac.in%2Fjbiosci%2Fjun2008%2F171.pdf&ei=vaVyVevlB4GnUMKwgVg&usg=AFQjCNEBXAODACWP4CV0MCVfJZfiPKEF2A&bvm=bv.95039771,d.d24">What history tells us XIII. Fifty years of Central Dogma</a><br>
@@ -11,4 +12,7 @@ Interesting Reads:
 [8] <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC264428/">Bioinformatics and Medical Informatics: Collaborations on the Road to Genomic Medicine?</a><br>
 [9] <a href="http://simplystatistics.org/2015/04/29/data-analysis-subcultures/">Data analysis subcultures</a><br>
 [10] <a href="http://en.wikipedia.org/wiki/Human_Genome_Project">Human Genome Project</a><br>
-[11]
+[11] <a href="http://www.sciencedirect.com/science/article/pii/S0888754308001651">Applications of next-generation sequencing technologies in functional genomics</a><br>
+[12] <a href="http://genome.cshlp.org/content/20/5/547.full">Neanderthal genomics and the evolution of modern humans</a><br>
+[13] <a href="http://www.mastersindatascience.org/industry/biotech/">Data Science in BioTechnology</a><br>
+[14] <a href="http://en.wikipedia.org/wiki/Functional_genomics">Functional Genomics</a>
