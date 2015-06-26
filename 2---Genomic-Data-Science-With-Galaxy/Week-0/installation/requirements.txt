@@ -3,3 +3,6 @@ https://wiki.galaxyproject.org/Admin/GetGalaxy
 
 For Windows: (instructions to building galaxy)
 https://wiki.galaxyproject.org/Admin/Config/Windows
+
+For Missing modules:
+http://eggs.g2.bx.psu.edu/
