@@ -398,3 +398,47 @@ usage: setup.py [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
    or: setup.py cmd --help
 
 error: no commands supplied
+
+dell@DELL3521 /d/galaxy (master)
+$ pip install pycrypto==2.3
+←[33mYou are using pip version 6.1.1, however version 7.0.3 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.←[0m
+Collecting pycrypto==2.3
+  Downloading pycrypto-2.3.tar.gz (331kB)
+←[K    100% |################################| 331kB 61kB/s ta 0:00:011
+    Complete output from command python setup.py egg_info:
+    Traceback (most recent call last):
+      File "<string>", line 20, in <module
+
+    ----------------------------------------
+←[31m    Command "python setup.py egg_info" failed with error code 1 in C:\Users
+\dell\AppData\Local\Temp\pip-build-28ayg8nu\pycrypto←[0m
+
+dell@DELL3521 /d/galaxy (master)
+$ run.sh
+Some eggs are out of date, attempting to fetch...
+Warning: MarkupSafe (a dependent egg of Mako) cannot be fetched
+Warning: pycrypto (a dependent egg of Fabric) cannot be fetched
+Fetched http://eggs.galaxyproject.org/paramiko/paramiko-1.11.1-py2.7.egg
+One of Galaxy's managed eggs depends on something which is missing, this is almo
+st certainly a bug in the egg distribution.
+Dependency "paramiko" requires "pycrypto>=2.1,!=2.4"
+Traceback (most recent call last):
+  File "./scripts/fetch_eggs.py", line 46, in <module>
+    c.resolve() # Only fetch eggs required by the config
+  File "d:\galaxy\lib\galaxy\eggs\__init__.py", line 396, in resolve
+    egg.resolve()
+  File "d:\galaxy\lib\galaxy\eggs\__init__.py", line 196, in resolve
+    dists = pkg_resources.working_set.resolve( ( self.distribution.as_requiremen
+t(), ), env, self.fetch )
+  File "d:\galaxy\lib\pkg_resources.py", line 569, in resolve
+    raise VersionConflict(dist,req) # XXX put more info here
+pkg_resources.VersionConflict: (paramiko 1.11.1 (d:\galaxy\eggs\paramiko-1.11.1-
+py2.7.egg), Requirement.parse('pycrypto>=2.1,!=2.4'))
+Fetch failed.
+Traceback (most recent call last):
+  File "./scripts/paster.py", line 36, in <module>
+    from galaxy.util.pastescript import serve
+  File "d:\galaxy\lib\galaxy\util\__init__.py", line 12, in <module>
+    import grp
+ImportError: No module named grp
